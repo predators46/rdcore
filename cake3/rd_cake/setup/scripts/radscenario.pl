@@ -100,7 +100,7 @@ my $acct_flag   = $ARGV[2];
 my $disconn_flag= $ARGV[3];
 
 my $radclient = "radclient -x";
-#my $radclient = "/usr/local/bin/radclient";
+#my $radclient = "/usr/bin/radclient";
 
 my $calling_station = "AA-AA-AA-AA-AA-AA"; #"Calling-Station-Id = 
 my $called_station  = "BB-BB-BB-BB-BB-BB"; #Called-Station-Id = 
