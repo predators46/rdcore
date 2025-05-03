@@ -46,7 +46,7 @@ if($arg1 eq 'stop')
 
 #___ Reload ____
 if($arg1 eq 'reload'){
-    system("service freeradius force-reload");   
+    system("service freeradius restart");   
 }
 
 
