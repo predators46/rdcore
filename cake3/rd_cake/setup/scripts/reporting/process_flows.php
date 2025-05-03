@@ -2,7 +2,7 @@
 
 
 //Some global variables
-$servername = "localhost";
+$servername = "127.0.0.1";
 $username   = "rd";
 $password   = "rd";
 $conn       = false;
